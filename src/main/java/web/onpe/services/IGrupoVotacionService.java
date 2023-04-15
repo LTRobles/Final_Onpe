@@ -1,5 +1,7 @@
 package web.onpe.services;
 
-public interface IGrupoVotacionService {
+import web.onpe.model.GrupoVotacion;
 
+public interface IGrupoVotacionService {
+public GrupoVotacion getGrupoVotacion (String id);
 }
